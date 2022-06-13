@@ -1,0 +1,72 @@
+/* CSS */
+body{
+    background-image: url('calculator-background.jpg');
+    background-size: cover;
+}
+
+.license{
+    font-size: xx-small;
+    position: absolute;
+}
+
+.calculator{
+    text-align: center;
+    margin: 0, auto;
+    padding-top: 90px;
+    width: 360px;
+    background-color: #F4B69B;
+    border: 5px outset #FF9576;
+    border-radius: 5%;
+}
+
+.cal-screen{
+    width: 100%;
+    height: auto;
+    background-color: #F4B69B;
+    color: #140200;
+    text-align: right;
+    font-size: 36px;
+    border: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-bottom: 3px solid #140200;
+}
+
+.cal-keys{
+    width: 100%;
+    height: auto;
+}
+
+.row{
+    display: flex;
+}
+
+button{
+    height: 90px;
+    background-color: #FF786E;
+    border-radius: 25%;
+    margin: 2px 2px;
+    border: transparent;
+    font-size: 30px;
+    color: #EFE6DC;
+    width: 25%;
+}
+
+.all-clear, .zero-btn{
+    width: 50%;
+    border-radius: 15%;
+}
+
+.equal-sign, .all-clear{
+    background-color: #EFE6DC;
+    color: #140200;
+}
+
+
+button:hover{
+    background-color: #ff5447;
+}
+
+.equal-sign:hover, .all-clear:hover{
+    background-color: #e5d7c7;
+}
